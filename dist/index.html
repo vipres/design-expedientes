@@ -6,32 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 </head>
 <body>
-<header>
-  <h1>Mi página web</h1>
-</header>
+<div class="wrapper">
+    <div class="body-overlay"></div>
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3><img src="img/logo.png" class="img-fluid" alt=""><span>Viprés Inmobiliaria</span></h3>
+        </div>
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="#" class="dashboard"><i class="material-icons">dashboard</i><span>dashboard</span></a>
+            </li>
+            <div class="small-screen navbar-display">
+                <li class="dropdown d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#homeSubmenu0" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <ul class="collapse list-unstyled menu" id="homeSubmenu0">
+                            <li><a href="#">You have 5 new messages</a></li>
+                            <li><a href="#">You have 5 new messages</a></li>
+                            <li><a href="#">You have 5 new messages</a></li>
+                            <li><a href="#">You have 5 new messages</a></li>
+                            <li><a href="#">You have 5 new messages</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">apps</i><span>apps</span></a>
+                </li>
+                <li class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">person</i><span>user</span></a>
+                </li>
+                <li class="d-lg-none d-md-block d-xl-none d-sm-block">
+                    <a href="#"><i class="material-icons">settings</i><span>settings</span></a>
+                </li>
 
-<nav>
-  <a href="#">Home</a>
-  <a href="#">Noticias</a>
-  <a href="#">Contacto</a>
-  <a href="#">Sobre Mi</a>
-</nav>
-<div class="row">
-  <aside>
-    <h2>aside</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quas maxime minus dolor id incidunt libero consectetur repellat unde optio obcaecati consequatur dolores doloribus, ducimus beatae, ratione perferendis. Illo, odit.</p>
-  </aside>
-  <section>
-    <h2>Section</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi voluptas neque maiores et qui non ad atque enim porro, nostrum eos quaerat commodi quibusdam, repellat itaque, blanditiis ullam accusamus cum.</p>
-  </section>
-  <footer>
-    <h2>Footer</h2>
-  </footer>
+            </div>
+
+            <li class="dropdown">
+                <a href="#pageSumbenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="material-icons">aspect_ratio</i><span>Layouts</span></a>
+            </li>
+
+        </ul>
+    </nav>
+
 </div>
 
 
