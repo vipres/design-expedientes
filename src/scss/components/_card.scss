@@ -1,0 +1,22 @@
+.card {
+    margin-bottom: $grid-gutter-width;
+    box-shadow: $card-shadow;
+  }
+
+  .card-header {
+    border-bottom-width: 1px;
+  }
+
+  .card-title {
+    font-size: $card-title-font-size;
+    font-weight: $card-title-font-weight;
+    color: $card-title-color;
+  }
+
+  .card-subtitle {
+    font-weight: $font-weight-normal;
+  }
+
+  .card-table {
+    margin-bottom: 0;
+  }

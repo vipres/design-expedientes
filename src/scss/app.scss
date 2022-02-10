@@ -1,0 +1,66 @@
+@import"variables/app";
+
+// Bootstrap
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/helpers";
+@import "~bootstrap/scss/utilities/api";
+
+@import "mixins/buttons";
+
+
+//Componentes
+@import "components/wrapper";
+@import "components/feather";
+@import "components/avatar";
+@import "components/buttons";
+@import "components/main";
+@import "components/card";
+@import "components/content";
+@import "components/dropdown";
+@import "components/hamburguer";
+@import "components/footer";
+@import "components/list-group";
+@import "components/navbar";
+@import "components/reboot";
+@import "components/sidebar";
+@import "components/sizing";
+@import "components/stat";
+@import "components/tables";
+@import "components/type";
+
+//utilidades
+
+@import "utilities/cursors";
+
+//vendor
+
+@import "vendor/flatpickr";
+@import "vendor/simplebar";
+
+//3rd plugins 
+@import "~simplebar/dist/simplebar";
+@import "~flatpickr/dist/flatpickr";
+
+
+
